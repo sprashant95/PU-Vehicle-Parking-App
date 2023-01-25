@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PU Parking App</string>
+
+    <string name="vehiclenumber">વાહન નંબર</string>
+    <string name="imagepreview">છબી પૂર્વાવલોકન</string>
+    <string name="detail">વિગતો નીચે છે:</string>
+    <string name="search">શોધ</string>
+    <string name="name">નામ: </string>
+    <string name="location">સ્થાન: </string>
+    <string name="hindi">हिंदी</string>
+    <string name="gujarati">ગુજરાતી</string>
+    <string name="email">ઇમેઇલ:  </string>
+    <string name="call">કૉલ</string>
+    <string name="entername">તમારું નામ અહીં દાખલ કરો</string>
+    <string name="phnumber1">ફોન દાખલ કરો્ રમ 1</string>
+    <string name="phnumber2">ફોન દાખલ કરો્ રમ 2</string>
+    <string name="emailenter">ઈમેલ દાખલ કરો</string>
+    <string name="locationenter">સ્થાન દાખલ કરો</string>
+    <string name="SUBMIT">સબમિટ કરો</string>
+    <string name="femildesc">An Engineer, Professor, Research scholar and Entrepreneur, who holds Master in Technology (M.Tech) degree in Information Technology from R.G.P.V Bhopal . He has a leadership quality and a very broad vision to cross the different paths. A restless soul who always love to experiment something new. His goal is to utilize his Education, Technical knowledge , Skill Set and Experiences to the Education and Research Arena.</string>
+
+    <string name="rohitdesc">Worked productively with Product Team to understand requirements and business specifications around Portfolio Management, Analytics and Risk.
+
+Effectively coded software(Application) changes and alterations based on specific design specifications.
+
+Worked to solve complex problems using the latest in Mobile, and Web Technologies.
+
+Developed and presented findings and solutions to audiences including senior executives and stakeholders.
+    </string>
+
+    <string name="prashantdesc">Experienced Assistant Professor with a demonstrated history of working in the information technology and services industry. Skilled in Microsoft Word, Project Analysis, Android Development, HTML, and Leadership. Strong education professional with a Master of Technology - MTech focused in Computer</string>
+
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".DashboardActivity">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="4343dp"
+        android:layout_height="79886dp"
+        android:layout_marginStart="-490dp"
+        android:layout_marginTop="-460dp"
+        android:layout_marginEnd="-520dp"
+        android:layout_marginBottom="-490dp"
+        android:alpha="0.2"
+        android:src="@drawable/pusplash" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:text="Parul University"
+            android:textColor="@color/white"
+            android:textSize="140px"
+            android:paddingLeft="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:fontFamily="@font/acme"
+            android:text="Parking App"
+            android:textColor="#DAA728"
+            android:textSize="140px"
+            android:paddingLeft="15dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="889px"
+            android:layout_height="176px"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/purple_200"
+            android:onClick="gotomain"
+            android:text="Add new vehicle" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="889px"
+            android:layout_height="176px"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/purple_200"
+            android:onClick="gotosearch"
+            android:text="search vehicle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Powered By: "
+            android:layout_margin="5dp"
+            android:textSize="17dp"
+            android:textColor="@color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="7dp"
+                android:background="@color/white"
+                android:src="@drawable/englogo"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="7dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pulogo"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="7dp"
+                android:src="@drawable/raelogo"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

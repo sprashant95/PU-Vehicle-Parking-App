@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="4343dp"
+        android:layout_height="79886dp"
+        android:layout_marginStart="-490dp"
+        android:layout_marginTop="-430dp"
+        android:layout_marginEnd="-520dp"
+        android:layout_marginBottom="-490dp"
+        android:alpha="0.2"
+        android:src="@drawable/pusplash" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="36dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Login Page" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="163dp"
+                android:layout_height="142dp"
+                android:layout_gravity="center_horizontal"
+                android:alpha="0.4"
+                android:src="@drawable/eclipse" />
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="55dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:foregroundGravity="center"
+                android:src="@drawable/group" />
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/etmisid"
+            android:layout_width="889px"
+            android:layout_height="136px"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="MIS Id"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/etpassword"
+            android:layout_width="889px"
+            android:layout_height="136px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:ems="10"
+            android:hint="Password as you DOB: 120997"
+            android:inputType="numberPassword"
+            android:paddingLeft="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <com.rey.material.widget.CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:paddingLeft="12dp"
+                android:text="Remember Me"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forget Password ?"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:paddingRight="23dp"
+                />
+
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_margin="15dp"
+            android:layout_width="889px"
+            android:layout_height="176px"
+            android:backgroundTint="@color/purple_200"
+            android:layout_gravity="center_horizontal"
+            android:onClick="gotomain"
+            android:text="Login" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create New Account"
+            android:textStyle="bold"
+            android:onClick="gotoregister"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+  />
+    </LinearLayout>
+
+
+</RelativeLayout>
